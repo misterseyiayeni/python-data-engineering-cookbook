@@ -1,6 +1,6 @@
 """Appliable Functions to a Pandas GroupBy Operation (I.E Plugins)"""
 
-import numpy
+import numpy as np
 
 
 def tanimoto(list1, list2):
@@ -22,10 +22,33 @@ def tanimoto(list1, list2):
 def npsum(x):
     """Numpy Library Sum"""
 
-    return numpy.sum(x)
+    return np.sum(x)
 
 
 def npmedian(x):
     """Numpy Library Median"""
 
-    return numpy.median(x)
+    return np.median(x)
+
+def multiply1000(x):
+    """Multipliplication by 1000"""
+
+    return (x*1000)
+    
+
+def npround(x):
+    """Numpy Library Round"""
+
+    return np.round(x, decimals=0)
+    
+
+def npmax(x):
+    """Numpy Library Median"""
+
+    return np.max(x)
+
+
+def npmean(x):
+    """Numpy Library Median"""
+
+    return np.round(np.mean(x), decimals=3)
