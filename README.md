@@ -115,3 +115,16 @@ AGE
 40    2891.50
 Name: PAGEVIEWS, dtype: float64
 ```
+
+
+```
+
+Seyi Ayeni:
+
+I added 3 functions:
+
+npround
+npmax
+npmean (rounded to 3 decimal places)
+
+```
